@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+    color: #000000;
+}
+
+.header {
+    padding: 5% 0% 0% 3%;
+    background-image: url(/assets/Fondo.png);
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: inherit;
+}
+
+.header__menu {
+    display: flex;
+    gap: 40px;
+}
+
+.header__menu__link {
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    margin: 300px 0px 0px 0px;
+    border: solid #262720;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.header__menu__link:hover {
+    background-color: #F6F6F6;
+}
+
+.presentacion {
+    padding: 3% 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentacion__contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentacion__contenido__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.presentacion__contenido__texto{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.presentacion__enlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 20px;
+}
+
+.presentacion__enlace__subtitulos {
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.presentacion__enlaces__link{
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #22d4fd;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.presentacion__enlaces__link:hover{
+    background-color: #000000;
+}
+
+.footer {
+    background-color: #262720;
+    width: auto;
+    padding: 24px;
+    color: #f6f6f6;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
